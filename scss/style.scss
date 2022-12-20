@@ -1,3 +1,48 @@
+$blanccasse: #f1f1f1;
+$blancgris: #f5f5f5;
+$sombre: #333;
+
+@mixin flexCenterX {
+  display: flex;
+  justify-content: center;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 body {
-  background: black;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background: $blancgris;
+  @include flexCenterX();
+  border-bottom: 1px solid black;
+  position: fixed; //va rester fixe sur scroll
+  z-index: 100; // passe au dessus de tout le monde
+
+  //nesting
+  .contItems {
+    font-size: 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .items {
+      margin-right: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      &:hover {
+        color: #5f5f5f;
+      }
+    }
+  }
 }
