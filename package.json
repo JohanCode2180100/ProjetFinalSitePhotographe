@@ -1,0 +1,19 @@
+{
+  "name": "projet-final-site-web-photographe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanCode2180100/ProjetFinalSitePhotographe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanCode2180100/ProjetFinalSitePhotographe/issues"
+  },
+  "homepage": "https://github.com/JohanCode2180100/ProjetFinalSitePhotographe#readme"
+}
