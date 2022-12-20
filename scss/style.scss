@@ -55,6 +55,7 @@ body {
   background-color: $sombre;
   background-image: url("/assets/pictures/home.jpg");
   background-position: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,11 +72,38 @@ body {
       font-size: 120px;
     }
   }
+  .sousTitreP {
+    color: $blanccasse;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
 }
-
-.sousTitreP {
-  color: $blanccasse;
-  font-family: "poppins", sans-serif;
-  font-weight: bold;
-  font-size: 22px;
+@media screen and (max-width: 1000px) {
+  .accueil h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .accueil {
+    height: 600px;
+  }
+  .sousTitreP {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .accueil {
+    height: 500px;
+    align-items: flex-start;
+  }
+  h1 {
+    margin: 0px 20px;
+    &::first-letter {
+      font-size: 50px;
+    }
+  }
+  .sousTitreP {
+    margin: 0px 20px;
+  }
 }
