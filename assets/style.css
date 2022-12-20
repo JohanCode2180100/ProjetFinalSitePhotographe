@@ -37,4 +37,34 @@ body {
   color: #5f5f5f;
 }
 
+.accueil {
+  height: 800px;
+  width: 100%;
+  background-color: #333;
+  background-image: url("/assets/pictures/home.jpg");
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accueil h1 {
+  font-family: "abril Fatface", sans-serif;
+  color: #f1f1f1;
+  font-size: 70px;
+  letter-spacing: 5px;
+  margin: 0;
+  position: relative;
+  padding-top: 150px;
+}
+.accueil h1::first-letter {
+  font-size: 120px;
+}
+
+.sousTitreP {
+  color: #f1f1f1;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
 /*# sourceMappingURL=style.css.map */
