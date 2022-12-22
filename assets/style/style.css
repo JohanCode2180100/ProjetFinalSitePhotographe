@@ -205,16 +205,20 @@ body {
   height: auto;
 }
 
-/* .imgPort {
-  width: 300px;
-  margin: 20px;
-  height: 370px;
-  overflow: hidden;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-} */
+.paraScroll {
+  width: 100%;
+  height: 300px;
+  background: url(/assets/pictures/para.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
