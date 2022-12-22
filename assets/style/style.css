@@ -123,7 +123,7 @@ body {
 }
 .txtImg .flexContainerSection1 .contTxtSec1 {
   width: 45%;
-  height: 810px;
+  height: auto;
   background: azure;
   margin: 20px;
   border-radius: 2px;
@@ -219,6 +219,48 @@ body {
   color: #f1f1f1;
   font-size: 50px;
   letter-spacing: 5px;
+}
+
+.titreForm {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form form {
+  width: 60%;
+}
+.form form .row {
+  width: 100%;
+}
+.form form .row input,
+.form form .row textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form form .row textarea {
+  height: 150px;
+}
+.form form .row .subBtn {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.form form .row .subBtn:hover {
+  background-color: midnightblue;
+  color: #f1f1f1;
+}
+.form .row:nth-child(2),
+.form .row:nth-child(3) {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

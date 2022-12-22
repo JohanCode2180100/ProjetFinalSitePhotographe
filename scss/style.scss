@@ -133,7 +133,7 @@ body {
     }
     .contTxtSec1 {
       width: 45%;
-      height: 810px;
+      height: auto;
       background: azure;
       margin: 20px;
       border-radius: 2px;
@@ -241,3 +241,44 @@ body {
 
 //SECTION FORMULAIRE
 
+.titreForm {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  @include flexCenterX;
+  form {
+    width: 60%;
+    .row {
+      width: 100%;
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      textarea {
+        height: 150px;
+      }
+      .subBtn {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        &:hover {
+          background-color: midnightblue;
+          color: $blanccasse;
+        }
+      }
+    }
+  }
+  .row:nth-child(2),
+  .row:nth-child(3) {
+    margin-top: 30px;
+  }
+}
