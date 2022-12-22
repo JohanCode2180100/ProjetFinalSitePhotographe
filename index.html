@@ -141,6 +141,41 @@
       <h3>Nature</h3>
     </div>
 
+    <!-- SECTION FORMULAIRE -->
+    <h2 class="titreForm">Rentrons en contact</h2>
+
+    <section class="form">
+      <form action="" id="contact">
+        <div class="row">
+          <!-- Label et input/ name input pour le back-end -->
+          <label for="Prénom">Prénom</label>
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="Ton prénom"
+          />
+        </div>
+        <div class="row">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Ton nom" />
+        </div>
+
+        <div class="row">
+          <label for="msg">Message</label>
+          <textarea
+            id="msg"
+            name="msg"
+            placeholder="Mettre un message"
+          ></textarea>
+        </div>
+        <div class="row">
+          <!-- type submit pour transmettre le formulaire -->
+          <input type="submit" class="subBtn" value="Submit" />
+        </div>
+      </form>
+    </section>
+
     <script src="/app.js"></script>
   </body>
 </html>
