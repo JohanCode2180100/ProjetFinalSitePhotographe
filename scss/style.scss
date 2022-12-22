@@ -179,3 +179,57 @@ body {
     font-size: 25px;
   }
 }
+
+// SECTION PORTFOLIO
+
+.titrePortfolio {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 550px) {
+  .titrePortfolio {
+    font-size: 25px;
+  }
+}
+//dimension du trait de séparation
+.diviseurPort {
+  width: 20%;
+}
+//section
+.portFolioImg {
+  padding-top: 20px;
+  width: 100%;
+  @include flexCenterX;
+  padding-bottom: 100px;
+  //div qui contient les photos
+  .flexImgPortfolio {
+    width: 1200px;
+    @include flexCenterX;
+    flex-wrap: wrap; //va faire passer les images l'une en dessous des autres si fenetre retrecie
+    //reglage des images
+    .imgPort {
+      width: 300px;
+      margin: 20px;
+      height: 370px;
+      overflow: hidden; //cache l'image si dépasse
+      //dimension image
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+/* .imgPort {
+  width: 300px;
+  margin: 20px;
+  height: 370px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+} */

@@ -166,5 +166,55 @@ body {
     font-size: 25px;
   }
 }
+.titrePortfolio {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .titrePortfolio {
+    font-size: 25px;
+  }
+}
+.diviseurPort {
+  width: 20%;
+}
+
+.portFolioImg {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.portFolioImg .flexImgPortfolio {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.portFolioImg .flexImgPortfolio .imgPort {
+  width: 300px;
+  margin: 20px;
+  height: 370px;
+  overflow: hidden;
+}
+.portFolioImg .flexImgPortfolio .imgPort img {
+  width: 100%;
+  height: auto;
+}
+
+/* .imgPort {
+  width: 300px;
+  margin: 20px;
+  height: 370px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+} */
 
 /*# sourceMappingURL=style.css.map */
