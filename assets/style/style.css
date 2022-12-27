@@ -51,15 +51,15 @@ body {
     padding: 10px 20px;
     display: block;
   }
-  .navbar .contItems .logoMenuImg {
-    display: block;
-  }
-  .navbar .items:nth-child(1) {
-    padding-top: 20px;
-  }
-  .navbar .responsive {
+  .navbar .contItems .items .responsive {
     display: block;
     margin-top: 50px;
+  }
+  .logoMenuImg {
+    display: block;
+  }
+  .items:nth-child(1) {
+    padding-top: 20px;
   }
 }
 .accueil {

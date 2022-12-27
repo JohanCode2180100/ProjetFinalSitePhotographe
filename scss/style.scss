@@ -58,19 +58,18 @@ body {
         margin-right: 0;
         padding: 10px 20px;
         display: block;
+        .responsive {
+          display: block;
+          margin-top: 50px;
+        }
       }
-      .logoMenuImg {
-        display: block;
-      }
     }
-
-    .items:nth-child(1) {
-      padding-top: 20px;
-    }
-    .responsive {
-      display: block;
-      margin-top: 50px;
-    }
+  }
+  .logoMenuImg {
+    display: block;
+  }
+  .items:nth-child(1) {
+    padding-top: 20px;
   }
 }
 
