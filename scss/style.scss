@@ -47,6 +47,34 @@ body {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: block;
+    .contItems {
+      display: none;
+      border-top: 1px solid black;
+      .items {
+        background: $blancgris;
+        margin-right: 0;
+        padding: 10px 20px; // 10 px en haut et bas et 20 gauche et droite
+        display: block;
+
+        &:nth-child(1) {
+          padding-top: 20px;
+        }
+      }
+    }
+    .logoMenuImg {
+      display: block;
+    }
+
+    .responsive {
+      display: block;
+      margin-top: 50px;
+    }
+  }
+}
+
 //ACCUEIL
 
 .accueil {

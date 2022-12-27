@@ -37,6 +37,31 @@ body {
   color: #5f5f5f;
 }
 
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: block;
+  }
+  .navbar .contItems {
+    display: none;
+    border-top: 1px solid black;
+  }
+  .navbar .contItems .items {
+    background: #f5f5f5;
+    margin-right: 0;
+    padding: 10px 20px;
+    display: block;
+  }
+  .navbar .contItems .items:nth-child(1) {
+    padding-top: 20px;
+  }
+  .navbar .logoMenuImg {
+    display: block;
+  }
+  .navbar .responsive {
+    display: block;
+    margin-top: 50px;
+  }
+}
 .accueil {
   height: 800px;
   width: 100%;
