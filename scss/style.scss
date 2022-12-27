@@ -56,18 +56,17 @@ body {
       .items {
         background: $blancgris;
         margin-right: 0;
-        padding: 10px 20px; // 10 px en haut et bas et 20 gauche et droite
+        padding: 10px 20px;
         display: block;
-
-        &:nth-child(1) {
-          padding-top: 20px;
-        }
+      }
+      .logoMenuImg {
+        display: block;
       }
     }
-    .logoMenuImg {
-      display: block;
-    }
 
+    .items:nth-child(1) {
+      padding-top: 20px;
+    }
     .responsive {
       display: block;
       margin-top: 50px;
@@ -244,7 +243,7 @@ body {
       //dimension image
       img {
         width: 100%;
-        height: auto;
+        height: 100%;
       }
     }
   }

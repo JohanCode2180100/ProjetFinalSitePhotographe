@@ -6,7 +6,7 @@ const arrItems = document.querySelectorAll(".Items");
 
 logoMenu.addEventListener("click", () => {
   if (contItems.className === "contItems") {
-    contItems.className += "responsive";
+    contItems.className += " responsive";
     logoMenu.style.width = "30px";
     logoMenu.style.top = "5px";
     logoMenu.src = "assets/pictures/close.svg";
